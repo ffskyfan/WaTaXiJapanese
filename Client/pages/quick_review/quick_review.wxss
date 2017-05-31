@@ -1,0 +1,53 @@
+/* quick_review.wxss */
+
+.main {
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.topic_item{
+  height: 300rpx;
+  width: 100%;
+}
+
+.gasket_item{
+  height: 100rpx;
+  width: 20rpx
+}
+
+
+.test_item {
+  height: 300rpx;
+  width: 300rpx;
+
+  text-align:center;
+
+  border-radius: 2%;
+  border-style: solid;
+  border-color: red;
+  border-width: 3rpx;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+.bg_floralwhite {
+  background-color:floralwhite
+}
+
+.bg_red {
+  background-color: red;
+}
+
+.bg_blue {
+  background-color: dodgerblue;
+}
+
+.bg_yellow {
+  background-color: greenyellow;
+}

@@ -1,0 +1,23 @@
+/* new_words.wxss */
+.main {
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.item {
+  height: 300rpx;
+  width: 300rpx;
+  
+}
+
+.bg_red {
+  background-color: red;
+}
+
+.bg_blue {
+  background-color: dodgerblue;
+}
+
+.bg_yellow {
+  background-color: greenyellow;
+}

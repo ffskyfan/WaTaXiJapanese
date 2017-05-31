@@ -9,7 +9,9 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../quick_review/quick_review'
+      //url: '../new_words/new_words'
+      //url: '../logs/logs'
     })
   },
   onLoad: function () {

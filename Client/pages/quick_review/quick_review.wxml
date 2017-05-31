@@ -1,0 +1,14 @@
+<!--quick_review.wxml-->
+
+<view style="display: flex;flex-direction:column;">
+  <view class="topic_item">word</view>
+  <view style="flex-direction:row;display: flex;justify-content :space-around;">
+    <view class="test_item bg_floralwhite">Content goes</view>
+    <view class="test_item bg_floralwhite">Content goes here djd</view>
+  </view>
+  <view class="gasket_item"></view>
+  <view style="flex-direction:row;display: flex; justify-content :space-around;">
+    <view class="test_item bg_floralwhite">3 方法减肥了 ff 积分</view>
+    <view class="test_item bg_floralwhite">4</view>
+  </view>
+</view>
