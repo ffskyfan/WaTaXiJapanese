@@ -5,13 +5,70 @@
   background-color: antiquewhite;
 }
 
-.topic_item{
-  height: 300rpx;
+.info_area{
+  height: 100rpx;
   width: 100%;
+
+  flex-direction:row;
+  display: flex;
+  justify-content :space-around;
+
+}
+
+
+
+.correct_count_panel{
+  margin-top: 30rpx;
+}
+
+.life_left_panel{
+  margin-top: 30rpx;
+}
+
+.point_panel{
+  height: 40rpx;
+  width: 80rpx;
+
+  margin-top: 30rpx;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 25%;
+  border-style:inset;
+  border-color:darkgray;
+  border-width: 3rpx;
+
+}
+
+
+.test_area{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+
+  
+  border-radius: 1%;
+  border-style:inset;
+  border-color:darkgray;
+  border-width: 3rpx;
+
+  box-shadow:2px 2px 5px #333333;
+}
+
+.topic_item{
+  height: 240rpx;
+  width: 100%;
+
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
 }
 
 .gasket_item{
-  height: 100rpx;
+  height: 90rpx;
   width: 20rpx
 }
 
@@ -30,14 +87,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   
 }
 
-
+.test_item_hover {
+  background-color: yellow;
+  opacity: 0.7;
+}
 
 
 .bg_floralwhite {
-  background-color:floralwhite
+  background-color:antiquewhite;
 }
 
 .bg_red {
@@ -50,4 +111,8 @@
 
 .bg_yellow {
   background-color: greenyellow;
+}
+
+.bg_darkred {
+  background-color:darkred;
 }

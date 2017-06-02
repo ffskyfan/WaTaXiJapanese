@@ -1,14 +1,27 @@
 <!--quick_review.wxml-->
 
-<view style="display: flex;flex-direction:column;">
-  <view class="topic_item">word</view>
-  <view style="flex-direction:row;display: flex;justify-content :space-around;">
-    <view class="test_item bg_floralwhite">Content goes</view>
-    <view class="test_item bg_floralwhite">Content goes here djd</view>
+<view class="info_area bg_red">
+  <icon type="cancel" size="50" color="black" />
+  <view class="correct_count_panel">正确:{{correct_count}}</view>
+  <view class="life_left_panel">
+    <icon type="circle" size="20" color="black" />
+    <icon type="circle" size="20" color="black" />
+    <icon type="circle" size="20" color="black" />
   </view>
-  <view class="gasket_item"></view>
-  <view style="flex-direction:row;display: flex; justify-content :space-around;">
-    <view class="test_item bg_floralwhite">3 方法减肥了 ff 积分</view>
-    <view class="test_item bg_floralwhite">4</view>
+  <view class="point_panel bg_darkred">{{score}}</view>
+</view>
+<view class="test_area">
+  <view style="display: flex;flex-direction:column;">
+    <view class="topic_item">{{test_word}}</view>
+    <view style="flex-direction:row;display: flex;justify-content :space-around;">
+      <view id="test_item_1" class="test_item bg_floralwhite" hover-class="test_item_hover" bindtap="tapTestItem">{{test_1}}</view>
+      <view id="test_item_2" class="test_item bg_floralwhite" hover-class="test_item_hover" bindtap="tapTestItem">{{test_2}}</view>
+    </view>
+    <view class="gasket_item"></view>
+    <view style="flex-direction:row;display: flex; justify-content :space-around;">
+      <view id="test_item_3" class="test_item bg_floralwhite" hover-class="test_item_hover" bindtap="tapTestItem">{{test_3}}</view>
+      <view id="test_item_4" class="test_item bg_floralwhite" hover-class="test_item_hover" bindtap="tapTestItem">{{test_4}}</view>
+    </view>
+    <view class="gasket_item"></view>
   </view>
 </view>
